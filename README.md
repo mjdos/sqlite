@@ -10,6 +10,6 @@ O devicereadyevento se comporta de maneira um pouco diferente dos outros. Qualqu
 
 Ao criar o build com o PhoneGap Build utilize as configurações abaixo no config.xml:
 
-<preference name="phonegap-version" value="cli-6.3.0" />
+preference name="phonegap-version" value="cli-6.3.0" 
 
-<plugin name="cordova-sqlite-storage" version="1.2.1" />
+plugin name="cordova-sqlite-storage" version="1.2.1" 
