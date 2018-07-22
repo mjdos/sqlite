@@ -8,3 +8,8 @@ O devicereadyevento é acionado assim que o Cordova estiver totalmente carregado
 
 O devicereadyevento se comporta de maneira um pouco diferente dos outros. Qualquer manipulador de eventos registrado após o devicereadyacionamento do evento tem sua função de retorno de chamada chamada imediatamente.
 
+Ao criar o build com o PhoneGap Build utilize as configurações abaixo no config.xml:
+
+preference name="phonegap-version" value="cli-6.3.0"
+
+plugin name="cordova-sqlite-storage" version="1.2.1"
